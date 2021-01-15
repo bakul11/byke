@@ -1,0 +1,135 @@
+@media all and (max-width :767px){
+	
+	.genaration-content .genaration-text {
+		width: 100%;
+		margin: auto;
+	}
+	
+	.main-section {
+		max-height: 980px;
+		overflow: hidden;
+	}
+	
+	.small-byke::after {
+		content: '';
+		position: absolute;
+		left: 49%;
+		top: 0px;
+		height: 0px;
+		width: 0px;
+		border-top: 10px solid #FFFFFF;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+	}
+	
+	.twitter-content .twitter-text {
+		width: 100%;
+		margin: auto;
+		color: #848789;
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		font-size: 20px;
+		font-style: italic;
+	}
+	
+	.menu ul li a img{
+		display:none;
+	}
+	
+	.header-section .menu {
+		position: absolute;
+		left: 122px;
+		top: 0px;
+		width: 100%;
+		margin-top: 30px;
+	}
+	
+	.header-section .menu ul li {
+		display: inline-block;
+		margin: 0 20px;
+	}
+	
+	.header-section .menu ul li:nth-child(3) a{
+		display:none;
+	}
+	
+	.header-section .logo {
+		display: block;
+	}
+	
+}
+
+@media all and (max-width :649px){
+	
+	.header-section .logo {
+		display: block;
+		width:100%;
+		text-align:center;
+	}
+	
+	.header-section .menu ul li {
+		display: block;
+		margin: 14px 0px;
+	}
+	
+	.header-section .menu ul li a{
+		color:#fff;
+		display:block;
+		padding:10px 0px;
+	}
+	
+	.header-section .menu ul li a:hover{
+		background:#c0392b;
+	}
+	
+	.header-section .menu {
+		background: #828021;
+		position: absolute;
+		left: 0px;
+		top: 100px;
+		width: 100%;
+		right: 0px;
+	}
+	
+	.header-image {
+		margin-top: 269px;
+	}
+	
+}
+
+
+@media all and (max-width :575px){
+	.footer-widgets {
+		padding:10px 0px;
+	}
+}
+
+@media all and (max-width :500px){
+	.go-btn {
+		position: relative;
+		width: 70%;
+		margin: 0px;
+	}
+}
+
+@media all and (max-width :320px){
+	
+	.small-byke::after {
+		content: '';
+		position: absolute;
+		left: 49%;
+		top: 64px;
+		height: 0px;
+		width: 0px;
+		border-top: 10px solid #FFFFFF;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+	}
+	
+	.go-btn {
+		position: relative;
+		width: 65%;
+		margin: 0px;
+	}
+	
+}

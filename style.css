@@ -1,0 +1,373 @@
+/**************************************************************
+***************************************************************
+	
+	Template Name: Photo gallarey
+	Template URI: http://www.gointech.com
+	Description: photo related template
+	Author: Bakul Ray
+	Author URI: http://www.gaintech.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+*************************************************************
+*************************************************************
+
+	1. Typography
+	2. Header Section
+	3. Genaration Section
+	4. Gallarey Section
+	5. twitter Section
+	6. discover Section
+	7. contract Section
+	8. Footer-Section
+
+**************************************************************
+**************************************************************/
+
+
+/************** Typography ************************/
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+h2{
+	text-transform:uppercase; 
+	color: #232323;
+	font-size:20px;
+}
+p{
+	color: #5d5968;
+	font-size:14px;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+
+
+
+/**************** Header-Section Start ****************/
+.header-section{
+	position:relative;
+	overflow:hidden;
+}
+.header-section .logo{
+	display:none;
+}
+.header-section .menu ul{
+	list-style:none;
+}
+.header-section .menu ul li{
+	display:inline-block;
+	margin: 0 30px;
+}
+.header-section .menu ul li a{
+	text-decoration:none;
+	text-transform: uppercase;
+	color: #4d4959;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+}
+.header-section .menu{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	margin-top:30px;
+}
+.header-image img{
+	max-width:100%;
+	height:auto;
+}
+
+
+
+
+/**************** Genaration Section Start ****************/
+.genaration-section{
+	background-color: #F7F7F7;
+	padding: 100px 0;
+	overflow:hidden;
+}
+.genaration-content h2{
+	color: #353738;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 3em;
+}
+
+.genaration-content .genaration-text {
+	width: 80%;
+	margin: auto;
+	color: #848789;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+
+
+
+/********* Gallarey Section Start *********/
+.gallarey-section{
+	overflow:hidden;
+}
+
+.big-section{
+	background-image:url('images/vintage-bike.jpg');
+	background-size:cover;
+	background-position:center;
+	height:480px;
+	position:relative;
+}
+.big-section2{
+	background-image:url('images/cycle.jpg');
+	background-size:cover;
+	background-position:center;
+	height:480px;
+	position:relative;
+}
+.big-logo{
+	text-align:center; 
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+}
+
+	
+.small-byke {
+	background-image: url('images/vintage-bike-small.jpg');
+	background-size: 100% auto;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	min-height: 195px;
+	position: relative;
+}
+.small-byke::after {
+	content: '';
+	position: absolute;
+	left: 48%;
+	top: 22px;
+	height: 0px;
+	width: 0px;
+	border-top: 10px solid #FFFFFF;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+
+
+.small-content{
+	padding-top:30px;
+}
+.small-content hr{
+	border-left:0px;
+	border-right:0px;
+	border-bottom:0px;
+	border-top:1px solid red;
+	width:50px;
+}
+	
+.small-content h2{
+	color: #353738;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 3em;
+}
+
+.small-section .small-text {
+	color: #848789;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	padding: 10px 20px;
+}
+
+.main-section{
+	max-height:480px;
+	overflow:hidden;
+}
+
+
+/**************** twitter Section Start ****************/
+.twitter-section{
+	background-color: #F7F7F7;
+	padding: 100px 0;
+	overflow:hidden;
+}
+.twitter-content i{
+	font-size:30px;
+	color:#56C7EF;
+}
+
+.twitter-content h2 {
+	color: #353738;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 3em;
+}
+.twitter-content h2 span {
+	font-size: 14px;
+	margin-left: 20px;
+	color: #848789;
+}
+
+.twitter-content .twitter-text {
+	width: 80%;
+	margin: auto;
+	color: #848789;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	font-style: italic;
+}
+
+
+
+/********** discover Section Start **********/
+.discover-section{
+	background:#282f35;
+	overflow:hidden;
+	padding:70px 0px;
+}
+.discover-btn .btn-success {
+	color: #fff;
+	background: none;
+	border: 1px solid #FFFFFF;
+	padding: 10px 36px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+
+
+
+/*********** contract Section Start ***********/
+.contract-section{
+	padding:70px 0px;
+}
+.contract-thub .thub-info p {
+	color: #848789;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	font-style: italic;
+	padding: 15px 0px;
+}
+.go-btn{
+	position:relative;
+	width:40%;
+	margin:auto
+}
+	
+.go-btn input[type="email"] {
+	display: block;
+	width: 100%;
+	padding: 17px 20px;
+	font-size: 18px;
+	font-weight: 400;
+	border: 1px solid #d3d7d9;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	color: #373b3e;
+}
+.go-btn input[type="submit"] {
+	background: #64c29e;
+	padding: 17px 34px;
+	font-size: 18px;
+	font-weight: 400;
+	border: 1px solid #d3d7d9;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	position: absolute;
+	left:101%;
+	top: 0px;
+	color: #FFFFFF;
+}
+
+
+
+/************** footer Section Start **************/
+.footer-area{
+	background:#f7f7f7;
+	padding:80px 0px;
+	margin-top:20px;
+}
+.footer-widgets address h2 {
+	color: #7e8888;
+	font-size: 16px;
+	font-weight: 700;
+}
+.footer-widgets address p {
+	color: #7d9393;
+	font-size: 14px;
+	margin: 0px;
+}
+.footer-widgets .footer-social ul{
+	display:flex;
+	list-style:none;
+}
+.footer-widgets .footer-social ul li{
+	padding:10px;
+}
+.footer-widgets .footer-social ul li:first-child a {
+	background: #78cdf0;
+	height: 40px;
+	width: 40px;
+	font-size: 20px;
+	border-radius: 50%;
+	padding: 5px 11px;
+	color: #fff;
+	display: block;
+}
+
+.footer-widgets .footer-social ul li:nth-child(2) a{
+	background: #537bbd;
+	height: 40px;
+	width: 40px;
+	font-size: 20px;
+	border-radius: 50%;
+	padding: 5px 11px;
+	color: #fff;
+	display: block;
+}
+
+.footer-widgets .footer-social ul li:last-child a {
+	background: #eb5755;
+	height: 40px;
+	width: 40px;
+	font-size: 20px;
+	border-radius: 50%;
+	padding: 5px 11px;
+	color: #fff;
+	display:block;
+}
+.footer-widgets .footer-info p{
+	color: #848789;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	font-style: italic;
+}
+.footer-widgets .footer-info p span{
+	margin-left:8px;
+}
+
+
+
+	
+	
+
+
